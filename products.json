@@ -1,0 +1,64 @@
+{
+    "products": [
+    {
+    "id": 1,
+    "name": "Pizza",
+    "category": "food",
+    "description": "Chicken with Cheese",
+    "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714049095/isolated-pizza-with-mushrooms-olives_219193-8149_qtycdw.avif",
+    "price": "$50",
+    "rating": 4.5,
+    "reviews": 120
+    },
+    {
+    "id": 2,
+    "name": "Coke",
+    "category": "drink",
+    "description": "Coke Zero - No Sugar",
+    "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714049256/fresh-cola-drink-glass_144627-16201_zwvxbk.jpg",
+    "price": "$10",
+    "rating": 4.8,
+    "reviews": 234
+    },
+    {
+    "id": 3,
+    "name": "Burger",
+    "category": "food",
+    "description": "Double Chicken",
+    "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714049058/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063_j35byl.avif",
+    "price": "$30",
+    "rating": 4.0,
+    "reviews": 85
+    },
+    {
+        "id": 4,
+        "name": "Sandwich",
+        "category": "food",
+        "description": "Crispy Chicken",
+        "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714049395/sandwich_1339-1108_ngvjrg.jpg",
+        "price": "$30",
+        "rating": 4.5,
+        "reviews": 85
+    },
+    {
+        "id": 5,
+        "name": "Submarine",
+        "category": "food",
+        "description": "Spicy Chicken",
+        "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714049504/baguette-sandwich_1147-498_qcorub.jpg",
+        "price": "$50",
+        "rating": 4.2,
+        "reviews": 85
+    },
+    {
+        "id": 6,
+        "name": "Milk Shake",
+        "category": "drink",
+        "description": "Milk Shake with Vanilla Flavour",
+        "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714049256/fresh-cola-drink-glass_144627-16201_zwvxbk.jpg",
+        "price": "$12",
+        "rating": 4.8,
+        "reviews": 234
+    }
+    ]
+    }
