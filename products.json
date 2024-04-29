@@ -5,7 +5,7 @@
     "name": "Pizza",
     "category": "food",
     "description": "Chicken with Cheese",
-    "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714049095/isolated-pizza-with-mushrooms-olives_219193-8149_qtycdw.avif",
+    "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714359103/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2014__10__20210321_TortillaPizza_LizClayman-10-a1a0e01e259e49bdb6d2abda202e4d6b_s3xowl.jpg",
     "price": "$50",
     "rating": 4.5,
     "reviews": 120
@@ -25,7 +25,7 @@
     "name": "Burger",
     "category": "food",
     "description": "Double Chicken",
-    "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714049058/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063_j35byl.avif",
+    "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714359209/Cheeseburger-3d7c922_bvarqc.jpg",
     "price": "$30",
     "rating": 4.0,
     "reviews": 85

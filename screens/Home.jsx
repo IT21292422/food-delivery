@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Div, Text, Input, Image, Icon } from 'react-native-magnus';
+import { Div, Text, Input, Image, Icon, Tag } from 'react-native-magnus';
 import { View, ScrollView, StyleSheet, FlatList } from 'react-native';
 import food from '../products.json';
 
@@ -10,7 +10,7 @@ export default function Home() {
     return(
       <View key={data.id} style={styles.productContainer}>
       <Div rounded="md">
-        <Image h={200} w={200} source={{ uri: data.image }}   onError={(error) => {console.log(error)}}/>
+        <Image h={200} w={200} source={{ uri: data.image }} onError={(error) => {console.log(error)}}/>
       </Div>
       <Div row alignItems="center">
       <Div flex={1}>
@@ -21,10 +21,17 @@ export default function Home() {
           {data.description}
         </Text>
       </Div>
-      <Div row alignItems="center">
-        <Text color="blue500" fontWeight="bold" fontSize="xl">
+      <Div flex={1} alignItems='flex-end'>
+        <Text color="blue500" fontWeight="bold" fontSize="xl" mb="sm">
           {data.price}
         </Text>
+        <Div>
+        <Tag bg='green500'>
+          <Text color='white'>
+            {data.rating}
+          </Text>
+        </Tag>
+        </Div>
       </Div>
     </Div>
     </View>
