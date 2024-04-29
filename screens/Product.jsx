@@ -3,7 +3,20 @@ import { Div, Text, Button, Tag } from 'react-native-magnus';
 import { View, ScrollView, StyleSheet, TouchableOpacity } from 'react-native';
 
 export default function Product({ route, navigation }) {
+  const[count,setCount]=useState(0);
   const { product } = route.params
+
+  const addCount = () => {
+    var newCount = count + 1;
+    setCount(newCount);
+  }
+
+  const decrementCount = () => {
+    if(count>0){
+      var newCount = count - 1;
+      setCount(newCount);
+    }
+  }
   return (
     <ScrollView style={styles.scrollview}>
       <View style={styles.container}>
@@ -46,8 +59,15 @@ export default function Product({ route, navigation }) {
                 {product.price}
               </Text>
             </Div>
+            <Div row mx="lg">
+              <Button w={50} h={50} mt="md" bg="teal500" fontSize="3xl" rounded="circle" onPress={decrementCount}>-</Button>
+              <Text color='teal500' fontSize="6xl" fontWeight='700' mx={10} mt={5}>
+                {count}
+              </Text>
+              <Button w={50} h={50} mt="md" bg="teal500" fontSize="3xl" rounded="circle" onPress={addCount}>+</Button>
+            </Div>
             <Div mx="lg" alignItems='flex-end'>
-              <Button w={300} h={50} mt="md" bg="teal500" fontSize="xl" rounded="md" >Add To Cart</Button>
+              <Button w={200} h={50} mt="md" bg="teal500" fontSize="xl" rounded="md" >Add To Cart</Button>
             </Div>
           </Div>
         </Div>
