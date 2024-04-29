@@ -6,7 +6,7 @@
     "category": "food",
     "description": "Chicken with Cheese",
     "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714359103/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2014__10__20210321_TortillaPizza_LizClayman-10-a1a0e01e259e49bdb6d2abda202e4d6b_s3xowl.jpg",
-    "price": "$50",
+    "price": "$50.00",
     "rating": 4.5,
     "reviews": 120
     },
@@ -16,7 +16,7 @@
     "category": "drink",
     "description": "Coke Zero - No Sugar",
     "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714049256/fresh-cola-drink-glass_144627-16201_zwvxbk.jpg",
-    "price": "$10",
+    "price": "$10.00",
     "rating": 4.8,
     "reviews": 234
     },
@@ -26,7 +26,7 @@
     "category": "food",
     "description": "Double Chicken",
     "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714359209/Cheeseburger-3d7c922_bvarqc.jpg",
-    "price": "$30",
+    "price": "$30.00",
     "rating": 4.0,
     "reviews": 85
     },
@@ -36,7 +36,7 @@
         "category": "food",
         "description": "Crispy Chicken",
         "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714049395/sandwich_1339-1108_ngvjrg.jpg",
-        "price": "$30",
+        "price": "$30.00",
         "rating": 4.5,
         "reviews": 85
     },
@@ -46,7 +46,7 @@
         "category": "food",
         "description": "Spicy Chicken",
         "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714049504/baguette-sandwich_1147-498_qcorub.jpg",
-        "price": "$50",
+        "price": "$50.00",
         "rating": 4.2,
         "reviews": 85
     },
@@ -55,8 +55,28 @@
         "name": "Milk Shake",
         "category": "drink",
         "description": "Milk Shake with Vanilla Flavour",
-        "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714049256/fresh-cola-drink-glass_144627-16201_zwvxbk.jpg",
-        "price": "$12",
+        "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714404230/perfect-coffee-milkshake-720x720_jex6bd.webp",
+        "price": "$12.00",
+        "rating": 4.8,
+        "reviews": 234
+    },
+    {
+        "id": 7,
+        "name": "Ice Cream",
+        "category": "dessert",
+        "description": "Chocolate Flavored Ice Cream",
+        "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714404390/homemade-chocolate-ice-cream-recipe-7_kw8blq.jpg",
+        "price": "$5.00",
+        "rating": 4.8,
+        "reviews": 234
+    },
+    {
+        "id": 8,
+        "name": "Mini Cheese Cake",
+        "category": "dessert",
+        "description": "Mini Cheese Cake With Starwberry",
+        "image": "https://res.cloudinary.com/dhzgmok7k/image/upload/v1714404451/images_rxskeu.jpg",
+        "price": "$10.00",
         "rating": 4.8,
         "reviews": 234
     }
